@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-  <!-- Change title and description -->
+
+
+  <!-- validator.w3.org used to validate html and css -->
   <title> Title Here</title>
 
     <meta charset="utf-8">
@@ -11,10 +13,10 @@
     <meta name="description" content="A minimal responsive website about beach toys.">
 
     <!-- Normalize.css -->
-    <link rel="stylesheet" type="text/css"href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
 
     <!-- custom css -->
-    <link rel="stylesheet" type="text/css"href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- [if IE] -->
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,21 +27,34 @@
 <body>
     <!-- content -->
 
+  <!-- container   -->
+  <div id="container">
     <header>
+      <a href="/">
+        <img src="img/logo.png" alt="MNML Logo">
+
       <nav>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">STORE</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CONTACT</a></li>
+
+        </ul>
       </nav>
     </header>
 
-    <section>
-      <h1> </h1>
-      <a href=""></a>
+    <section id="tagline">
+      <h1> we sell beach toys. <em>seriously.</em></h1>
+      <a href="" class="button">Browse the shop.</a>
     </section>
 
 
     <footer>
-
+      <p>copyright &copy; 2018 mnml beach toys</p>
     </footer>
-
+  </div>
+<!-- end container -->
 </body>
 
 </html>

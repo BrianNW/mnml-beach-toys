@@ -1,0 +1,115 @@
+/* Use this to outline every element for troubleshooting : * { border: 1px solid red; } */
+
+html,body {
+  height: 100%;
+}
+
+body {
+  background: url('img/background.jpg') center center no-repeat;
+  background-size:cover;
+  color: white;
+  font-family: Courier, monospace;
+  font-size: 14px;
+}
+
+#container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: solid 1px white;
+}
+
+/* Start of Navbar */
+
+nav {
+  margin-top: 20px;
+}
+
+/* remove bullet points */
+nav ul {
+  list-style: none;
+  padding: 0;
+  /* normalize will give margins to lists. setting to 0 to remove them. */
+  margin: 0;
+}
+
+/* line up the navbar */
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #ffea00;
+}
+
+/* End of Navbar */
+
+
+/* section */
+
+#tagline {
+  text-align: center;
+  margin: 50px 0 0px;
+}
+
+#tagline h1 {
+  margin-bottom: 160px;
+}
+
+#tagline h1 em {
+  margin-top: 10px;
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+}
+
+/* end of section */
+
+
+/* call to action button */
+
+a.button {
+  display: block;
+  height: 86px;
+  width: 305px;
+  background: url('img/button-background.png') top left no-repeat;
+  margin: 0 auto;
+  color: black;
+  font-size: 18px;
+  line-height: 86px;
+}
+
+a.button:hover {
+  color: white;
+  text-shadow: 0 1px 5px #333;
+}
+
+a.button:active {
+  position: relative;
+  top: 1px;
+}
+
+/* end of button */
+
+/* footer */
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 150px;
+}
